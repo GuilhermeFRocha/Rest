@@ -1,0 +1,26 @@
+[28-Jul-2021 19:43:26] NOTICE: fpm is running, pid 107877
+[28-Jul-2021 19:43:26] NOTICE: ready to handle connections
+[29-Jul-2021 00:01:34] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:01:34] ERROR: FPM initialization failed
+[29-Jul-2021 00:01:35] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:01:35] ERROR: FPM initialization failed
+[29-Jul-2021 00:01:35] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:01:35] ERROR: FPM initialization failed
+[29-Jul-2021 00:01:36] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:01:36] ERROR: FPM initialization failed
+[29-Jul-2021 00:04:19] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:04:19] ERROR: FPM initialization failed
+[29-Jul-2021 00:04:20] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:04:20] ERROR: FPM initialization failed
+[29-Jul-2021 00:04:20] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:04:20] ERROR: FPM initialization failed
+[29-Jul-2021 00:04:21] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 00:04:21] ERROR: FPM initialization failed
+[29-Jul-2021 17:21:54] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 17:21:54] ERROR: FPM initialization failed
+[29-Jul-2021 17:21:55] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 17:21:55] ERROR: FPM initialization failed
+[29-Jul-2021 17:21:55] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 17:21:55] ERROR: FPM initialization failed
+[29-Jul-2021 17:21:56] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/KXYqUwjy4/php/php-fpm.socket
+[29-Jul-2021 17:21:56] ERROR: FPM initialization failed
