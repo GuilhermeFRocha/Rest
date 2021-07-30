@@ -1,0 +1,170 @@
+[30-Jul-2021 16:16:09 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:09 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->get_presenter, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:17 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:19 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:23 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_cleanup_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:23 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:30 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:30 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por require_once('wp-admin/admin-header.php'), WP_Screen->render_screen_meta, WP_Screen->show_screen_options, get_column_headers, apply_filters('manage_edit-page_columns'), WP_Hook->apply_filters, WP_Posts_List_Table->get_columns, apply_filters('manage_page_posts_columns'), WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Link_Count_Columns_Integration->add_post_columns, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:31 UTC] Erro de banco de dados do WordPress Table 'local.wp_yoast_seo_links' doesn't exist para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page', 'attachment')
+			
+			 feita por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[30-Jul-2021 16:16:33 UTC] Erro de banco de dados do WordPress Unknown column 'L.target_indexable_id' in 'on clause' para a consulta SELECT COUNT(P.ID)
+			FROM wp_posts AS P
+			LEFT JOIN wp_yoast_indexable AS I
+				ON P.ID = I.object_id
+				AND I.link_count IS NOT NULL
+				AND I.object_type = 'post'
+			LEFT JOIN wp_yoast_seo_links AS L
+				ON L.post_id = P.ID
+				AND L.target_indexable_id IS NULL
+				AND L.type = 'internal'
+				AND L.target_post_id IS NOT NULL
+				AND L.target_post_id != 0
+			WHERE ( I.object_id IS NULL OR L.post_id IS NOT NULL )
+				AND P.post_status = 'publish'
+				AND P.post_type IN ('post', 'page')
+			
+			 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed

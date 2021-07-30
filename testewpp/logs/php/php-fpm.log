@@ -1,2 +1,14 @@
 [29-Jul-2021 22:54:00] NOTICE: fpm is running, pid 132763
 [29-Jul-2021 22:54:00] NOTICE: ready to handle connections
+[29-Jul-2021 23:02:47] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/Mj1QYNbC4/php/php-fpm.socket
+[29-Jul-2021 23:02:47] ERROR: FPM initialization failed
+[29-Jul-2021 23:02:47] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/Mj1QYNbC4/php/php-fpm.socket
+[29-Jul-2021 23:02:47] ERROR: FPM initialization failed
+[29-Jul-2021 23:02:48] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/Mj1QYNbC4/php/php-fpm.socket
+[29-Jul-2021 23:02:48] ERROR: FPM initialization failed
+[29-Jul-2021 23:02:49] ERROR: Another FPM instance seems to already listen on /home/guilherme/.config/Local/run/Mj1QYNbC4/php/php-fpm.socket
+[29-Jul-2021 23:02:49] ERROR: FPM initialization failed
+[30-Jul-2021 12:17:42] NOTICE: Terminating ...
+[30-Jul-2021 12:17:42] NOTICE: exiting, bye-bye!
+[30-Jul-2021 12:24:01] NOTICE: fpm is running, pid 5148
+[30-Jul-2021 12:24:01] NOTICE: ready to handle connections
