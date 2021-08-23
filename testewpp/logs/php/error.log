@@ -168,3 +168,4 @@
 				AND P.post_type IN ('post', 'page')
 			
 			 feita por require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->maybe_create_notification, Yoast\WP\SEO\Integrations\Admin\Indexing_Notification_Integration->should_show_notification, Yoast\WP\SEO\Helpers\Indexing_Helper->get_filtered_unindexed_count, Yoast\WP\SEO\Helpers\Indexing_Helper->get_unindexed_count, Yoast\WP\SEO\Actions\Indexing\Abstract_Link_Indexing_Action->get_total_unindexed
+[22-Aug-2021 17:29:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/guilherme/Desktop/sites/testewpp/app/public/wp-content/themes/rest/page-sobre.php on line 20
